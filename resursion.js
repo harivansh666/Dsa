@@ -118,3 +118,48 @@
 // }
 // serial(1, 5);
 
+// Print in terms of n to 1
+
+// function PrintReverse(n) {
+//   if (n === 0) {
+//     return;
+//   }
+//   console.log(n);
+//   PrintReverse(n - 1);
+// }
+// PrintReverse(5);
+
+// Fibonachi
+
+// let prev2 = 0;
+// let prev1 = 1;
+
+// function Fibonachi(prev1, prev2) {
+//   let newFibo = prev1 + prev2;
+//   if (newFibo > 60) return;
+//   console.log(newFibo);
+//   Fibonachi(prev2, newFibo);
+// }
+// console.log(prev1);
+// console.log(prev2);
+// Fibonachi(prev1, prev2);
+
+// function Fibonachi(n) {
+//   if ((n === 0) | (n === 1)) return n;
+//   return Fibonachi(n - 1) + Fibonachi(n - 2);
+// }
+
+// console.log(Fibonachi(6));
+
+// space O(n), Time Com: O(2n)
+
+// Calculate sum of first N numbers
+
+// function sum(n) {
+//   if (n === 1) return 1;
+
+//   return n + sum(n - 1);
+// }
+
+// console.log(sum(5));
+
