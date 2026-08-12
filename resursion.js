@@ -163,3 +163,20 @@
 
 // console.log(sum(5));
 
+// Count digits of a number
+// function totalNum(n) {
+//   if (n === 1) return 1;
+
+//   Math.floor(n / 10);
+//   return 1 + totalNum(Math.floor(n / 10));
+// }
+// console.log(totalNum(1234598));
+// console.log(Math.floor(1234598 / 10));
+
+// Reverse a string using recursion
+
+function reverseString(str) {
+  if (str === "") return "";
+  return reverseString(str.slice(1)) + str[0];
+}
+console.log(reverseString("hello"));
