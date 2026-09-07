@@ -125,14 +125,18 @@ class LinkedList {
 
     return newHead;
   }
+
+  mergeTwoLists(list1, list2) {
+    console.log(list1 , list2)
+  }
 }
 
-const list = new LinkedList();
+// const list = new LinkedList();
 list.addFirst(1);
 list.addAtLast(2);
 list.addAtLast(3);
 list.addAtLast(4);
-list.reversellRecursive(list);
+// list.reversellRecursive(list);
 
 // list.reversell();
 
@@ -140,3 +144,5 @@ list.printLL();
 // list.insertAtIndex(8, 2);
 // list.deleteAtIndex(4);
 // console.log(list);
+
+
